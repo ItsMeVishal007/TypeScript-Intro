@@ -23,3 +23,8 @@ let points: { x: number; y: number } = {
 const addNum: (a: number, b: number) => number = (a: number, b: number) => {
   return a + b;
 };
+
+// When to use annotations
+// Function that return any type
+const json = '{"x":"5","y":"3"}';
+const result: { x: number; y: number } = JSON.parse(json);
