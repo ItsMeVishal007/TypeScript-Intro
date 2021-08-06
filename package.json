@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "ts-node": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.0",
+    "tslib": "^2.3.0"
   }
 }
