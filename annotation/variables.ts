@@ -4,3 +4,6 @@ let hasName: boolean = true;
 let nullVar: null = null;
 let undefinedVar: undefined = undefined;
 let date: Date = new Date();
+let color: string[] = ["red", "blue", "green"];
+let numArray: number[] = [1, 2, 3];
+let booleanArr: boolean[] = [true, false, true];
